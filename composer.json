@@ -1,8 +1,8 @@
 {
-    "name": "avtop/dompdf",
+    "name": "dompdf/dompdf",
     "type": "library",
     "description": "DOMPDF is a CSS 2.1 compliant HTML to PDF converter",
-    "homepage": "https://github.com/avtop/dompdf",
+    "homepage": "https://github.com/dompdf/dompdf",
     "license": "LGPL-2.1",
     "authors": [
         {
