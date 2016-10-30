@@ -8,20 +8,20 @@ return array(
             'italic' => $distFontDir . 'Helvetica-Oblique',
             'bold_italic' => $distFontDir . 'Helvetica-BoldOblique'
         ),
-    'times' =>
-        array(
-            'normal' => $distFontDir . 'Times-Roman',
-            'bold' => $distFontDir . 'Times-Bold',
-            'italic' => $distFontDir . 'Times-Italic',
-            'bold_italic' => $distFontDir . 'Times-BoldItalic'
-        ),
-    'times-roman' =>
-        array(
-            'normal' => $distFontDir . 'Times-Roman',
-            'bold' => $distFontDir . 'Times-Bold',
-            'italic' => $distFontDir . 'Times-Italic',
-            'bold_italic' => $distFontDir . 'Times-BoldItalic'
-        ),
+//    'times' =>
+//        array(
+//            'normal' => $distFontDir . 'Times-Roman',
+//            'bold' => $distFontDir . 'Times-Bold',
+//            'italic' => $distFontDir . 'Times-Italic',
+//            'bold_italic' => $distFontDir . 'Times-BoldItalic'
+//        ),
+//    'times-roman' =>
+//        array(
+//            'normal' => $distFontDir . 'Times-Roman',
+//            'bold' => $distFontDir . 'Times-Bold',
+//            'italic' => $distFontDir . 'Times-Italic',
+//            'bold_italic' => $distFontDir . 'Times-BoldItalic'
+//        ),
     'courier' =>
         array(
             'normal' => $distFontDir . 'Courier',
@@ -91,6 +91,18 @@ return array(
             'bold_italic' => $distFontDir . 'DejaVuSerif-BoldItalic',
             'italic' => $distFontDir . 'DejaVuSerif-Italic',
             'normal' => $distFontDir . 'DejaVuSerif'
-        )
+        ),
+    'times' => array(
+        'normal' => $distFontDir . 'times',
+        'bold' => $distFontDir . 'timesbd',
+        'italic' => $distFontDir . 'timesi',
+        'bold_italic' => $distFontDir . 'timesbi'
+    ),
+    'times-roman' => array(
+        'normal' => $distFontDir . 'times',
+        'bold' => $distFontDir . 'timesbd',
+        'italic' => $distFontDir . 'timesi',
+        'bold_italic' => $distFontDir . 'timesbi'
+    ),
 )
 ?>
